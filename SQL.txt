@@ -1,0 +1,16 @@
+create table student
+(
+roll int,
+fname varchar(50),
+lname varchar(50),
+address varchar(100)
+)
+
+select * from student
+
+insert into student values
+(1001,'koushik','talukdar','Kolkata'),
+(1002,'Rajesh','Saha','Kolkata'),
+(1003,'Thomas','Joseph','NY'),
+(1004,'Danny','Dsouza','Nepal'),
+(1005,'Akshay','Kumar','Mumbai')
